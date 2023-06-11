@@ -1,0 +1,72 @@
+.nxt-slides-container {
+  width: 100vw;
+  height: 92vh;
+
+  background-color: #f8fafc;
+}
+.new-button-card {
+  height: 3vh;
+  padding: 20px;
+}
+.new-button {
+  width: 70px;
+  height: 30px;
+
+  background-color: #dbeafe;
+  border-width: 0px;
+  border-radius: 7px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  outline: none;
+}
+
+.plus-icon {
+  height: 12px;
+  width: 12px;
+}
+
+.new-button-text {
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+.nxt-slides-main-container {
+  display: flex;
+  align-items: center;
+}
+
+.slides-bar-list-container {
+  width: 20vw;
+  height: 83vh;
+  overflow-y: auto;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.current-slid-bg {
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+
+  border: 1px solid red;
+}
+
+.current-slide-bg-card {
+  width: 60%;
+  height: 80vh;
+
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png');
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0px 0px 16px 0px #dee0de;
+}

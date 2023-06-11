@@ -1,0 +1,22 @@
+.nav-bar {
+  width: 100vw;
+  height: 70px;
+
+  background-color: #dbeafe;
+
+  display: flex;
+  align-items: center;
+
+  padding-left: 20px;
+}
+
+.slides-logo {
+  height: 40px;
+}
+
+.website-name {
+  font-size: 25px;
+  font-family: 'Bree Serif';
+  color: #0f172a;
+  margin-left: 10px;
+}
